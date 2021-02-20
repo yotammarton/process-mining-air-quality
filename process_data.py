@@ -53,4 +53,4 @@ for line in lines:
 
 df = pd.DataFrame(columns=['station_id', 'station_name', 'pollutant_name', 'timestamp', 'concentration'], data=data)
 
-df.to_csv(f'{city.lower()}_concentrations_.csv', index=False)
+df.to_csv(f'{city.lower()}_concentrations.csv', index=False)
