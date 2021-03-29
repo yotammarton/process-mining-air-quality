@@ -22,7 +22,7 @@ def get_delta(d1, d2):
     return delta
 
 
-file = '[modified] kdd_cup_2018_dataset_without_missing_values.txt'
+file = '[modified] kdd_cup_2018_dataset_missing_values_replaced_with_0.txt'
 
 with open(file, 'r') as f:
     lines = f.readlines()
