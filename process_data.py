@@ -1,7 +1,7 @@
 """
-Usage:
-process_data.py London
-process_data.py Beijing
+Usage (in terminal..):
+python process_data.py London
+python process_data.py Beijing
 """
 
 from datetime import timedelta as td, datetime
